@@ -7,24 +7,27 @@
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
-<body>
-<div>
-    <img src="https://cdn-icons-png.flaticon.com/512/3800/3800088.png" alt="logo">
+<body><div class="row">
+    <img alt="logo" src="https://cdn-icons-png.flaticon.com/512/3800/3800088.png">
     <h1>Series de Televisión</h1>
 </div>
-<div>
-    <table>
-        <thead>
-        <tr>
-            <th>#</th>
-            <th>Nombre</th>
-            <th>Canal</th>
-            <th>Temporadas</th>
-        </tr>
-        </thead>
-        <tbody id="series-table"></tbody>
-    </table>
-    <b id="seasons-average"></b>
+<div class="row">
+    <div class="col">
+        <div class="card">
+            <table class="table">
+                <thead class="thead">
+                <tr>
+                    <th>#</th>
+                    <th>Nombre</th>
+                    <th>Canal</th>
+                    <th>Temporadas</th>
+                </tr>
+                </thead>
+                <tbody id="series-table"></tbody>
+            </table>
+        </div>
+        <b id="seasons-average"></b>
+    </div>
 </div>
 <script src="./scripts/serie.js" type="module"></script>
 <script src="./scripts/data.js" type="module"></script>
