@@ -1,11 +1,10 @@
-import {Serie} from "./serie.js";
+import {Serie} from "./serie";
 import {data} from "./data.js";
 
 let seriesTable: HTMLElement = document.getElementById("series-table")!;
 let seasonsAvg: HTMLElement = document.getElementById("seasons-average")!;
 
 renderAll(data);
-
 function renderTable(data: Serie[]): void {
     console.log("Renderizando la tabla");
     data.forEach(item => {

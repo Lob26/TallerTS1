@@ -2,7 +2,7 @@
   "compilerOptions": {
     "module": "es6",
     "rootDir": "./",
-    "outDir": "./scripts",
+    "outDir": "./script",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "alwaysStrict": true,
